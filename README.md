@@ -8,6 +8,6 @@ Repósitorios com a lista de exercícios do curso
 - [x] Sting1
 - [x] Sting2
 - [x] list1
-- [ ] list2
+- [x] list2
 - [ ] mimic
 - [ ] wordcount
