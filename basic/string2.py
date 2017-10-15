@@ -36,7 +36,12 @@ def verbing(s):
 # This dinner is good!
 def not_bad(s):
     # +++your code here+++
-    return
+
+    bad = s.find('bad')
+    nott = s.find('not')
+    if bad > nott:
+        s = s.replace(s[nott:(bad+3)], 'good')
+    return s
 
 
 # F. front_back
@@ -48,7 +53,7 @@ def not_bad(s):
 #  a-front + b-front + a-back + b-back
 def front_back(a, b):
     # +++your code here+++
-    return
+    return a
 
 
 # Simple provided test() function used in main() to print
